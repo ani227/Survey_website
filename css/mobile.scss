@@ -1,0 +1,98 @@
+@media only screen and (max-width: 920px) {
+    article {
+        .tab-pane {
+            padding: 6em 2em 0em 2em !important;
+            h3 {
+                font-size: 1.4em;
+            }
+        }
+        .contest {
+            // padding: .6em;
+            img {
+                width: 100%;
+            }
+        }
+        footer {
+            display: flex !important;
+            margin-top: 2em;
+            background: #ffffff;
+        }
+        .main_menu {
+            border: 1px solid #dedede !important;
+            padding: .5em .3em !important;
+            border-radius: 10px;
+            top: 1em;
+            ul {
+                margin: 0 !important;
+            }
+        }
+    }
+    aside {
+        main {
+            padding: 6em 2em 4em 2em !important;
+            h1 {
+                font-size: 3.4em !important;
+            }
+            p {
+                line-height: 1.2em;
+            }
+            .start_btn {
+                margin-bottom: 1.5em !important;
+            }
+            // .share_btns {
+            //     flex-direction: column !important;
+            //     align-items: flex-start !important;
+            // }
+        }
+        footer {
+            display: none !important;
+        }
+    }
+    header {
+        img {
+            width: 4em;
+            height: 4em;
+            margin-top: 1em !important;
+        }
+        ul {
+            justify-content: start !important;
+            a {
+                margin-left: 1em !important;
+                white-space: nowrap;
+            }
+        }
+        .desk_menu {
+            display: none;
+        }
+        .mob_menu {
+            display: flex;
+            width: 90%;
+            flex-wrap: nowrap;
+            overflow: scroll;
+            margin: auto !important;
+            padding: .6em 0 !important;
+            li {
+                display: flex;
+                justify-content: center;
+                line-height: 2.5em;
+            }
+        }
+    }
+    .timer {
+        p {
+            font-size: 1em !important;
+        }
+        .clockdiv {
+            .innertime {
+                div span {
+                    min-width: 1.45em !important;
+                    padding: .4em !important;
+                    font-size: 1.1em !important;
+                }
+                .smalltext {
+                    font-size: .8em !important;
+                }
+            }
+        }
+    }
+}

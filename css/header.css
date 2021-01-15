@@ -1,0 +1,35 @@
+header {
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+header img {
+  width: 4em;
+  height: 4em;
+  cursor: pointer;
+  margin: 1.2em 0 0 1.5em !important;
+}
+header ul {
+  justify-content: flex-end;
+  list-style: none;
+}
+header ul a {
+  margin-left: 1em !important;
+  color: white !important;
+  text-decoration: none;
+  padding: 0.3em;
+}
+header ul a:hover {
+  text-decoration: none;
+}
+header ul a.active {
+  font-weight: 600;
+  border-bottom: 2px solid #D90429;
+  color: #D90429 !important;
+}
+
+/*# sourceMappingURL=header.css.map */

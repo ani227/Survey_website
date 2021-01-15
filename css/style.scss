@@ -1,0 +1,37 @@
+@import "./variables";
+@import "./header";
+@import "./back_animate";
+@import "./aside";
+@import "./article";
+@import "./socialmedia";
+@import "./mobile";
+@import "./timer";
+footer {
+    box-shadow: 0 -2px 18px 0 rgba(0, 0, 0, 0.50);
+    img {
+        height: 1em;
+        margin-left: .3em !important;
+    }
+}
+
+.start_btn {
+    display: block;
+    width: fit-content;
+    background: #e6007e;
+    color: #ffffff;
+    padding: .4em 1em;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    box-shadow: 0 -2px 18px 0 rgba(230, 0, 126, .8) !important;
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}

@@ -1,0 +1,33 @@
+header {
+    background-color: transparent;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    img {
+        width: 4em;
+        height: 4em;
+        cursor: pointer;
+        margin: 1.2em 0 0 1.5em !important;
+    }
+    ul {
+        justify-content: flex-end;
+        list-style: none;
+        a {
+            margin-left: 1em !important;
+            color: white !important;
+            text-decoration: none;
+            padding: .3em;
+            &:hover {
+                text-decoration: none;
+            }
+            &.active {
+                font-weight: 600;
+                border-bottom: 2px solid #D90429;
+                color: #D90429 !important;
+            }
+        }
+    }
+}

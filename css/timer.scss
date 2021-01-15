@@ -1,0 +1,53 @@
+.timer {
+    text-align: center;
+    padding: 1em 2em;
+    width: fit-content;
+    margin-top: .8em !important;
+    border-radius: 10px;
+    height: fit-content;
+    p {
+        color: #171725;
+        font-size: 1.5em;
+        margin-bottom: 1em !important;
+        font-weight: 600;
+        text-align: center;
+    }
+    .clockdiv {
+        display: flex;
+        .innertime {
+            display: flex;
+            flex-direction: column;
+            div {
+                display: flex;
+                align-items: center;
+                align-self: center;
+                span {
+                    // min-width: 1.4em;
+                    // padding: .4em;
+                    // font-size: 1.1em;
+                    display: flex;
+                    background: rgba(255, 255, 255, .8);
+                    min-width: 1.9em;
+                    padding: .6em .5em;
+                    border-radius: 7px;
+                    font-size: 2em;
+                    font-weight: 600;
+                    justify-content: center;
+                    &:first-child {
+                        margin-right: 3px !important;
+                    }
+                }
+                p {
+                    margin: 0px 3px !important;
+                    color: #171725;
+                    font-size: 1.1em;
+                }
+            }
+            .smalltext {
+                font-size: 1.2em;
+                padding: .4em 0;
+                color: #171725;
+            }
+        }
+    }
+}

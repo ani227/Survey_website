@@ -1,0 +1,19 @@
+.icons a {
+    i {
+        height: 1.8em;
+        width: 1.8em;
+        text-align: center;
+        line-height: 1.8em;
+        border-radius: 50%;
+        transition: all 2s;
+    }
+    .fa-facebook-f {
+        background: #2c80d3;
+        color: #ffffff;
+    }
+    .fa-instagram {
+        // background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        background: #dc2743;
+        color: #ffffff;
+    }
+}

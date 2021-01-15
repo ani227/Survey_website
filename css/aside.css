@@ -1,0 +1,29 @@
+aside {
+  min-height: 100vh;
+}
+
+aside main {
+  height: 100%;
+  padding: 0 3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside main h1 {
+  font-size: 5em !important;
+  line-height: 1em;
+}
+
+aside main h1 span {
+  color: #e6007e;
+  font-family: 'Montserrat', sans-serif !important;
+  line-height: 1em;
+}
+
+aside footer {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+/*# sourceMappingURL=aside.css.map */

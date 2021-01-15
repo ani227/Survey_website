@@ -1,0 +1,39 @@
+$btn_back_color: #FF9F1C;
+$linkcolor: #dedede;
+// $gradient : radial-gradient(circle, #434343, #373737, #2c2c2c, #212121, #161616, #101010, #090909, #000000, #000000, #000000, #000000, #000000);
+// $gradient : linear-gradient(to right top, #ffff00, #f8f000, #f0e100, #e8d300, #dfc502);
+// $gradient : linear-gradient(to right top, #bebe0b, #c6c007, #cec205, #d7c303, #dfc502);
+$gradient: linear-gradient(to right top, rgba(190, 190, 11, .95), rgba(198, 192, 7, .95), rgba(198, 192, 7, .95), rgba(215, 195, 3, .95), rgba(223, 197, 2, .95));
+* {
+    font-style: normal;
+    outline: none;
+    text-align: left;
+    font-stretch: normal;
+    padding: 0;
+    margin: 0 !important;
+    font-stretch: normal;
+    line-height: normal;
+    font-size: 1em;
+    color: #171725;
+    font-family: 'Work Sans', sans-serif !important;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 900;
+}
+
+.strong {
+    font-weight: 600 !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
+    font-weight: 600 !important;
+}

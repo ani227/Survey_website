@@ -1,0 +1,91 @@
+@media only screen and (max-width: 920px) {
+  article .tab-pane {
+    padding: 6em 2em 0em 2em !important;
+  }
+  article .tab-pane h3 {
+    font-size: 1.4em;
+  }
+  article .contest img {
+    width: 100%;
+  }
+  article footer {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    margin-top: 2em;
+    background: #ffffff;
+  }
+  article .main_menu {
+    border: 1px solid #dedede !important;
+    padding: .5em .3em !important;
+    border-radius: 10px;
+    top: 1em;
+  }
+  article .main_menu ul {
+    margin: 0 !important;
+  }
+  aside main {
+    padding: 6em 2em 4em 2em !important;
+  }
+  aside main h1 {
+    font-size: 3.4em !important;
+  }
+  aside main p {
+    line-height: 1.2em;
+  }
+  aside main .start_btn {
+    margin-bottom: 1.5em !important;
+  }
+  aside footer {
+    display: none !important;
+  }
+  header img {
+    width: 4em;
+    height: 4em;
+    margin-top: 1em !important;
+  }
+  header ul {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+  header ul a {
+    margin-left: 1em !important;
+    white-space: nowrap;
+  }
+  header .desk_menu {
+    display: none;
+  }
+  header .mob_menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    overflow: scroll;
+    margin: auto !important;
+    padding: .6em 0 !important;
+  }
+  header .mob_menu li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 2.5em;
+  }
+  .timer p {
+    font-size: 1em !important;
+  }
+  .timer .clockdiv .innertime div span {
+    min-width: 1.45em !important;
+    padding: .4em !important;
+    font-size: 1.1em !important;
+  }
+  .timer .clockdiv .innertime .smalltext {
+    font-size: .8em !important;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
